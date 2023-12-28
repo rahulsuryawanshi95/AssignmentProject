@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-28T13:11:54 IST" name="Suite" finished-at="2023-12-28T13:12:23 IST" duration-ms="28935">
+    <groups>
+    </groups>
+    <test started-at="2023-12-28T13:11:54 IST" name="Naukari Test" finished-at="2023-12-28T13:12:23 IST" duration-ms="28935">
+      <class name="com.naukari.test.web.login.LoginSuccessfullyTestValidAndInvalid">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.naukari.test.web.login.LoginSuccessfullyTestValidAndInvalid@2f217633]" started-at="2023-12-28T13:11:55 IST" name="beforeClass" finished-at="2023-12-28T13:11:58 IST" duration-ms="3632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33feb805]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="A01_toVerifyThatAUserWithValidCredentialsCanSuccessfullyLogInAndloginessTheSystem(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naukari.test.web.login.LoginSuccessfullyTestValidAndInvalid@2f217633]" started-at="2023-12-28T13:11:59 IST" name="A01_toVerifyThatAUserWithValidCredentialsCanSuccessfullyLogInAndloginessTheSystem" description="To Verify that a user with valid credentials can successfully log in and loginess the system." data-provider="read" finished-at="2023-12-28T13:12:05 IST" duration-ms="6871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suryawanshirahul@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[suryawanshirahul@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A01_toVerifyThatAUserWithValidCredentialsCanSuccessfullyLogInAndloginessTheSystem -->
+        <test-method signature="A02_toValidateThatAnErrorMessageIsDisplayedWhenAttemptingToLogInWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naukari.test.web.login.LoginSuccessfullyTestValidAndInvalid@2f217633]" started-at="2023-12-28T13:12:05 IST" name="A02_toValidateThatAnErrorMessageIsDisplayedWhenAttemptingToLogInWithInvalidCredentials" description="To Validate that an error message is displayed when attempting to log in with invalid credentials" data-provider="read" finished-at="2023-12-28T13:12:13 IST" duration-ms="7356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suryawanshirahul@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[suryawanshirahul@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A02_toValidateThatAnErrorMessageIsDisplayedWhenAttemptingToLogInWithInvalidCredentials -->
+        <test-method signature="A03_toEnsureThatTheLoginPageRetainsTheEnteredUsernameAndPasswordFieldsValuesAfterAFailedLoginAttempt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naukari.test.web.login.LoginSuccessfullyTestValidAndInvalid@2f217633]" started-at="2023-12-28T13:12:13 IST" name="A03_toEnsureThatTheLoginPageRetainsTheEnteredUsernameAndPasswordFieldsValuesAfterAFailedLoginAttempt" description="To Ensure that the login page retains the entered username and password fields&#039; values after a failed login attempt." data-provider="read" finished-at="2023-12-28T13:12:17 IST" duration-ms="4638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suryawanshirahul@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[suryawanshirahul@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A03_toEnsureThatTheLoginPageRetainsTheEnteredUsernameAndPasswordFieldsValuesAfterAFailedLoginAttempt -->
+        <test-method signature="A04_toTestThatTheLoginButtonIsDisabledWhenBothUsernameAndPasswordFieldsAreEmpty(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naukari.test.web.login.LoginSuccessfullyTestValidAndInvalid@2f217633]" started-at="2023-12-28T13:12:17 IST" name="A04_toTestThatTheLoginButtonIsDisabledWhenBothUsernameAndPasswordFieldsAreEmpty" description="To Test that the &#039;Login&#039; button is disabled when both username and password fields are empty." data-provider="read" finished-at="2023-12-28T13:12:19 IST" duration-ms="1140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suryawanshirahul@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[suryawanshirahul@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A04_toTestThatTheLoginButtonIsDisabledWhenBothUsernameAndPasswordFieldsAreEmpty -->
+        <test-method signature="A05_toConfirmThatTheLoginButtonIsEnabledOnlyWhenBothUsernameAndPasswordFieldsAreFilledWithValidInput(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naukari.test.web.login.LoginSuccessfullyTestValidAndInvalid@2f217633]" started-at="2023-12-28T13:12:19 IST" name="A05_toConfirmThatTheLoginButtonIsEnabledOnlyWhenBothUsernameAndPasswordFieldsAreFilledWithValidInput" description="To Confirm that the &#039;Login&#039; button is enabled only when both username and password fields are filled with valid input." data-provider="read" finished-at="2023-12-28T13:12:23 IST" duration-ms="4099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suryawanshirahul@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[suryawanshirahul@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A05_toConfirmThatTheLoginButtonIsEnabledOnlyWhenBothUsernameAndPasswordFieldsAreFilledWithValidInput -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.naukari.test.web.login.LoginSuccessfullyTestValidAndInvalid@2f217633]" started-at="2023-12-28T13:12:23 IST" name="afterClass" finished-at="2023-12-28T13:12:23 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.naukari.test.web.login.LoginSuccessfullyTestValidAndInvalid -->
+    </test> <!-- Naukari Test -->
+  </suite> <!-- Suite -->
+</testng-results>
